@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav {
+  background-color: #0089b7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  padding: 1.5rem;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0.8rem;
+}
+nav ul li {
+  font-size: 1.2em;
+}
+#home {
+  height: 100vh;
+  background-color: #003d62;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid #0089b7;
+}
+#home .image {
+  width: 25vw;
+  height: 85vh;
+}
+#home .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 45%;
+}
+#home .text span {
+  color: yellow;
+}
+#home .profession {
+  font-size: 4em;
+}
+#projects {
+  background-color: #003251;
+}
+#projects h1 {
+  font-size: 4.5em;
+  text-align: center;
+}
+#projects .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+#projects .container .div:hover {
+  transform: scale(1.1);
+}
+#projects .container .div {
+  transition: transform 0.5s ease-in;
+}
+#projects .container .box {
+  background-color: white;
+  height: 10vh;
+}
+#contact {
+  background-color: #003d62;
+  text-align: center;
+  height: 80vh;
+  padding-top: 4rem;
+}
+#contact h1 {
+  font-size: 4em;
+}
+#contact .social_media {
+  width: 35vw;
+  height: 40vh;
+  margin: 1.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2rem;
+}
+#contact .social_media .media {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+#contact .social_media .media i,
+h2 {
+  font-size: 2em;
+}
+footer {
+  text-align: center;
+  min-height: 10vh;
+  background-color: #012941;
+  padding: 1rem 0;
+  font-size: 1.5em;
+}
