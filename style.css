@@ -77,14 +77,13 @@ nav ul li a {
 }
 
 #home .profession {
-  font-size: 4em;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  border-right: 2px solid transparent;
   font-family: monospace;
-  position: relative;
-  animation: typing 2s steps(20, end) forwards;
+  border-right: 2px solid orange;
+  animation: typing 2s steps(16, end) infinite;
+  font-size: 4rem;
 }
 
 @keyframes typing {
@@ -92,7 +91,7 @@ nav ul li a {
     width: 0;
   }
   to {
-    width: 100%;
+    width: 70%;
   }
 }
 
